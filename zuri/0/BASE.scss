@@ -1,0 +1,26 @@
+//  | BASE ___________________|
+//  | html       | body       |
+
+  html, body {
+
+    @include                    base();
+
+  }
+  
+  html {
+
+    @include bg    (y, $bg, $fg, $url);
+    @include iosTextSizeAdjust  (100%);
+    @include typography          ($ss);
+    width:                        100%;
+
+  }
+  
+  body {
+
+    line-height:                 _($b);
+    font-size:                   _($b);
+    width:                        auto;
+
+  }
+  

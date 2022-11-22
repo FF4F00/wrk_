@@ -1,0 +1,53 @@
+@charset       "UTF-8";
+@import       '0/UTIL';
+
+$box:       border-box;
+$scrollbar:         $_;
+
+$w:        $base * 200;
+$h:        $base * 300;
+$m:                $_1;
+
+
+$dark-mode:         am;
+$bg:              $m_1;
+$url:               ''; 
+
+
+$font:         $s * 1%;
+$fg:              $m_9;
+$ss:          'Lexend';
+$sf:'Playfair Display';
+$ms: 'Source Code Pro';
+
+.block {
+    background-color: #FF4F00;
+    @include sqr(256px); 
+}
+
+
+@import       '0/ZERO';
+@import       '0/BASE';
+
+
+@import       '1/ARCH';
+@import       '1/GRID';
+@import       '1/EXPO';
+
+@import       '1/FORM';
+@import       '1/_TBL';
+@import       '1/LIST';
+
+
+@import       '2/_XYZ';
+
+
+
+
+@import       '3/AURA';
+@import       '3/TYPE';
+@import       '3/UIUX';
+
+// @import       '0/INFO';
+
+
