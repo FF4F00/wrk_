@@ -1,0 +1,15 @@
+pkg install postgresql15-server
+pkg install redis
+pkg install haproxy
+pkg install doas
+pkg install opennetpd
+pkg install relayd
+pkg install obhttpd
+pkg install opensmtpd
+pkg install tmux
+pkg install openiked
+pkg install libressl
+pkg install bastille
+pkg install nginx
+pkg install unbound
+pkg install node
